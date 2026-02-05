@@ -15,12 +15,11 @@ build/
 logs/
 *.log
 
-# Model checkpoints and large files
-checkpoint/
-model/
+# Large model files
+model/**/*.safetensors
 
-# Large dataset files
-dataset/
+# Large dataset files (keep folder structure with .gitkeep)
+dataset/*.txt
 
 # Virtual environment
 venv/
