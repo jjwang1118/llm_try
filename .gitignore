@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Zone.Identifier files (Windows metadata)
+*:Zone.Identifier
+
+# Logs
+logs/
+*.log
+
+# Model checkpoints and large files
+checkpoint/
+model/
+
+# Large dataset files
+dataset/
+
+# Virtual environment
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
